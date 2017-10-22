@@ -3,9 +3,9 @@
 
 ## Write a short comment describing this function
 ## This funtion takes a matrix as an argument and returns a list obj with the following functions
-##setMatrix - function to modify the matrix obj given.
+##setMatrix - function to cache the matrix obj given.
 ##getMatrix - function to get the cached matrix.
-##setinverse - function to set the inverse of the matrix.
+##setinverse - function to cache the inverse of the matrix.
 ##getinverse - function to get cached inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
